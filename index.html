@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>calclotor</title>
+</head>
+<body>
+  <div class="classes">
+    <table>
+      <tr>
+        <td colspan="4">
+          <input colspan="4" id="myResult"  type="text" >
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input value="C" type="button" onclick="deleted()">
+          <input value="(" type="button" onclick="calclutor('(')">
+          <input value=")" type="button" onclick="calclutor(')')">
+          <input class="bkS" value="Back space" type="button" onclick="backSpace()">
+        </td>
+      </tr>
+        <tr>
+        <td>
+          <input value="7" type="button" onclick="calclutor('7')">
+          <input value="8" type="button" onclick="calclutor('8')">
+          <input value="9" type="button" onclick="calclutor('9')">
+          <input value="+" type="button" onclick="calclutor('+')">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input value="4" type="button" onclick="calclutor('4')">
+          <input value="5" type="button" onclick="calclutor('5')">
+          <input value="6" type="button" onclick="calclutor('6')">
+          <input value="-" type="button" onclick="calclutor('-')">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input value="1" type="button" onclick="calclutor('1')">
+          <input value="2" type="button" onclick="calclutor('2')">
+          <input value="3" type="button" onclick="calclutor('3')">
+          <input value="*" type="button" onclick="calclutor('*')">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input value="0" type="button" onclick="calclutor('0')">
+          <input value="." type="button" onclick="calclutor('.')">
+          <input value="/" type="button" onclick="calclutor('/')">
+          <input value="=" type="button" onclick="finalResult()">
+        </td>
+      </tr>
+    </table>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
